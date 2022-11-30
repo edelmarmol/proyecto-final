@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script src="app.js"></script>
+    <title>Simulador de Crédito</title>
+    <link rel="stylesheet" href="estilos.css">
+   
+</head>
+<body>
+    
+    <h1 class="titulo" id="Titulo">¡Tu crédito personal al instante!</h1>
+	<h2 class="cotizacion" id="cotizacion"></h2>
+    <form action="#" class="formulario"> 
+        <label><i class="fas fa-user"></i>Nombre y Apellido</label>
+        <input type="text" class="nombre" placeholder="Escribí tu nombre...">
+        <label><i class="fas fa-wallet"></i>Ingresos</label>
+        <input type="number" class="ingresos" placeholder="$1.000">
+        <label><i class="fas fa-coins"></i>Monto del Crédito</label>
+        <input type="number" class="monto" placeholder="$120.000">
+        <label><i class="fas fa-money-bill-wave" ></i>Forma de pago</label>
+        <input type="text" class="pago" placeholder="Efectivo / débito en cuenta / otros">
+        <label><i class="fas fa-calendar-alt"></i>Plazo</label>
+        <input type="number" class="plazo" placeholder="60 / 90 / 120 dias">
+
+        <input id="boton" type="submit" class="botoncalcular" value="CALCULAR">
+    </form>
+
+</body>
+
+
+</html>
